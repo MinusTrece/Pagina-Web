@@ -6,7 +6,7 @@
     vertical-align: baseline;
 }
 
-body {
+body { 
     text-align: center;
     font-family: sans-serif;
 }
@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     height: 63px;
     background: #171717;
-    position: fixed;
+    position: static;
     width: 100%;
     z-index: 100;
 }
@@ -65,11 +65,11 @@ body {
 }
 
 .title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(230, 230, 230);
 }
 
 p {
@@ -79,28 +79,6 @@ p {
     padding: 0 100px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #9c27b0;
-    color: #fff;
-    text-decoration: none;
-    background: #9c27b0;
-}
-
-.btn:hover {
-    background: none;
-    
-}
-
-.btn-home {
-    display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
-}
 
 
 .content {
@@ -127,7 +105,7 @@ p {
 .box-container .box {
     height: 11rem;
     width: 17rem;
-    background: #101010;
+    background: #413a3a;
     text-align: center;
     border-radius: 1rem;
     box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
@@ -141,7 +119,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #50ce1e;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -149,7 +127,7 @@ p {
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #50ce1e;
 
 }
 
@@ -159,7 +137,7 @@ p {
 }
 
 .about {
-    background: #171717;
+    background: #080808;
 }
 
 .price {
@@ -193,4 +171,45 @@ p {
     }
    
     
+      
 }
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #1f1d1d;
+    text-align: center;
+    padding: 10px;
+   left: 0;
+   bottom: 0;
+   
+  }
+
+  .mrd{
+    position: static;
+    
+     padding: 10px 20px;
+     background-color: #50ce1e;
+        color: white;
+        transition: all 0.2s;
+        margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #50ce1e;
+
+    text-decoration: none;
+   
+      }
+      
+      .mrd:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+      
+
+
+
+  
+ 
+  
