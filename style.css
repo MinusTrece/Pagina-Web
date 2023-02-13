@@ -264,5 +264,35 @@ p {
    left: 0;
    bottom: 0;   
 }
- 
+.section4{
+   
+    position: static;
+    bottom: 0;
+    width: auto;
+    height: 500px;
+    background-color: #000000;
+    color: #1f1d1d;
+    text-align: center;
+    padding: 60px;
+   left: 0;
+   bottom: 0;   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 30%;
+    text-align: center;
+    margin-bottom: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
   
