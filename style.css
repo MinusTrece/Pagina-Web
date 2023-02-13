@@ -18,7 +18,7 @@ body {
     height: 63px;
     background: #171717;
     position: static;
-    width: 100%;
+    width: auto;
     z-index: 100;
 }
 
@@ -176,7 +176,7 @@ p {
 .footer {
     position: static;
     bottom: 0;
-    width: 100%;
+    width: auto;
     height: 50px;
     background-color: #333;
     color: #1f1d1d;
@@ -222,10 +222,47 @@ p {
         padding: 0 100px;
     }
     
+
       
+.section{
+    position: static;
+    bottom: 0;
+    width: auto;
+    height: 240px;
+    background-color: #333;
+    color: #1f1d1d;
+    text-align: center;
+    padding: 60px;
+   left: 0;
+   bottom: 0;
+}
 
-
-
-  
+.section2{
+   
+        position: static;
+        bottom: 0;
+        width: auto;
+        height: 650px;
+        background-color: #000000;
+        color: #1f1d1d;
+        text-align: center;
+        padding: 60px;
+       left: 0;
+       bottom: 0;   
+}
+ 
+.section3{
+   
+    position: static;
+    bottom: 0;
+    width: auto;
+    height: 200px;
+    background-color: #4e4b4b;
+    color: #fff9f9;
+    text-align: center;
+    padding: 60px;
+   left: 0;
+   bottom: 0;   
+}
  
   
